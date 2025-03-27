@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autorização para Menores</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <style>
         body {
             display: flex;
@@ -31,6 +30,10 @@
             pointer-events: none;
         }
         .input-field {
+            height: 12px;
+            border-left: initial;
+            border-right: initial;
+            border-top: initial;
             position: absolute;
             background: rgba(255, 255, 255, 0.7);
             border: 1px solid #000;
@@ -38,7 +41,6 @@
             font-size: 16px;
             pointer-events: auto;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
         }
         img {
             width: 100%;
@@ -59,7 +61,7 @@
             border: none;
             cursor: pointer;
             font-size: 16px;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             border-radius: 5px;
             pointer-events: auto;
         }
@@ -69,16 +71,16 @@
     </style>
 </head>
 <body>
-    <div class="container" id="capture-area">
+    <div class="container">
         <img src="WhatsApp Image 2025-03-22 at 22.18.22.jpeg" alt="Autorização para menores de 18 anos">
         <div class="form-overlay">
-             <form id="formAutorizacao" action="https://formsubmit.co/acampmjamis@gmail.com" method="POST">
-                <input type="text" class="input-field" style="top: 220px; left: 100px; width: 540px; border-left: initial; border-right: initial; border-top: initial;" placeholder="">
-                <input type="text" class="input-field" style="top: 250px; left: 18%; width: 300px;  border-left: initial; border-right: initial; border-top: initial;" placeholder="">
-                <input type="text" class="input-field" style="top: 279px; left: 10%; width: 580px; border-left: initial; border-right: initial; border-top: initial;" placeholder="">
-                <input type="text" class="input-field" style="top: 309px; left: 18%; width: 235px; border-left: initial; border-right: initial; border-top: initial;" placeholder="">
-                <input type="text" class="input-field" style="top: 420px; left: 24%; width: 310px; border-left: initial; border-right: initial; border-top: initial;" placeholder="">
-                <input type="text" class="input-field" style="top: 510px; left: 35%; width: 340px; border-left: initial; border-right: initial; border-top: initial;" placeholder="">
+            <form id="formAutorizacao" action="https://formsubmit.co/acampmjamis@gmail.com" method="POST">
+                <input type="text" class="input-field" style="top: 226px; left: 100px; width: 540px; border-left: initial; border-right: initial; border-top: initial;" placeholder="">
+                <input type="text" class="input-field" style="top: 256px; left: 18%; width: 300px;  border-left: initial; border-right: initial; border-top: initial;" placeholder="">
+                <input type="text" class="input-field" style="top: 285px; left: 10%; width: 580px; border-left: initial; border-right: initial; border-top: initial;" placeholder="">
+                <input type="text" class="input-field" style="top: 315px; left: 18%; width: 235px; border-left: initial; border-right: initial; border-top: initial;" placeholder="">
+                <input type="text" class="input-field" style="top: 431px; left: 24%; width: 310px; border-left: initial; border-right: initial; border-top: initial;" placeholder="">
+                <input type="text" class="input-field" style="top: 520px; left: 35%; width: 340px; border-left: initial; border-right: initial; border-top: initial;" placeholder="">
                 
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="sucesso.html">
